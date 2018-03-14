@@ -9,7 +9,7 @@ app.use(bodyParser.urlencoded({
     extended: false
 }))
 app.get('/', (req, res) => {
-    res.send("Không Được Đâu Sói Ạ ^^")
+    res.send("Sever Trung Gian HeThongSongAo.Com - Contact SMS : 0919.257.664 & Facebook.Com/100009580369715")
 })
 app.get('/ShowTokeN', (req, res) => {
     res.json(log_access)
